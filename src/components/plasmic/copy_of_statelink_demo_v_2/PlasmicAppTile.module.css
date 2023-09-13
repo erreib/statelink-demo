@@ -1,0 +1,91 @@
+.appTile2 {
+  display: inline-flex;
+  flex-direction: row;
+  box-shadow: inset 0px 0px 0px 1px rgba(221, 221, 221, 1);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-self: flex-start;
+  border-radius: 6px;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 45px;
+  height: 45px;
+  display: block !important;
+  flex-shrink: 0;
+  border: 1px solid #dddddd;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.frame2964 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 0;
+  flex-direction: row;
+  padding-left: 12px;
+  padding-right: 9px;
+  flex-shrink: 0;
+}
+.frame2964 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 14px);
+  width: calc(100% + 14px);
+}
+.frame2964 > :global(.__wab_flex-container) > *,
+.frame2964 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2964 > :global(.__wab_flex-container) > picture > img,
+.frame2964
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 14px;
+}
+.text__jPEpA {
+  display: block;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: auto;
+  white-space: pre;
+  height: 100%;
+  margin-right: 0px;
+  text-align: left;
+  align-self: center;
+  min-height: 0;
+}
+.text__f9Ovf {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(51, 51, 51, 1);
+  position: relative;
+  width: 4px;
+  align-self: center;
+  flex-shrink: 0;
+}
